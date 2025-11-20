@@ -1,16 +1,26 @@
-# bmi_calculator
+BMI Calculator – Flutter App
 
-A new Flutter project.
+A clean and simple BMI (Body Mass Index) Calculator built using Flutter.
+This app allows users to enter their weight, height in feet, and height in inches, and instantly calculates BMI along with a health message and UI color change.
 
-## Getting Started
+- Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  * Enter Weight (kg), Height (feet), Height (inches)
+  * Instant BMI Calculation
+  * UI changes color based on BMI category:
+  * Underweight → Green
+  * Healthy → Blue 
+  * Overweight → Orange
+  * Obese → Red
+  * Fully responsive
+  * Beginner-friendly Flutter project
+- Demo Flow
+  User enters:
+    Weight in KG
+    Height in Feet
+    Height in Inches
+  Press Calculate
+  App displays:
+    BMI Value
+  Health Status
+  Background color reflecting BMI category
