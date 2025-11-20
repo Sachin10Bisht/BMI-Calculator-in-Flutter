@@ -28,8 +28,13 @@ BMI Logic Used
   height_in_inches = feet * 12 + inch
   height_in_cm = height_in_inches * 2.54
   height_in_m = height_in_cm / 100
-
-BMI = weight (kg) / (height_in_m²)
+  BMI = weight (kg) / (height_in_m²)
+BMI Categories
+  BMI Range	  Category
+  <18.5       Underweight
+  18.5–24.9	  Healthy
+  25–29.9	    Overweight
+  30+	        Obese
 Clone the repository
   git clone https://github.com/Sachin10Bisht/bmi-calculator.git
 Navigate into the project folder
