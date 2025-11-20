@@ -24,3 +24,19 @@ This app allows users to enter their weight, height in feet, and height in inche
     BMI Value
   Health Status
   Background color reflecting BMI category
+BMI Logic Used
+  height_in_inches = feet * 12 + inch
+  height_in_cm = height_in_inches * 2.54
+  height_in_m = height_in_cm / 100
+
+BMI = weight (kg) / (height_in_m²)
+Clone the repository
+  git clone https://github.com/Sachin10Bisht/bmi-calculator.git
+Navigate into the project folder
+  cd bmi-calculator
+Get dependencies:
+  flutter pub get
+Run the app:
+  flutter run
+
+ 
